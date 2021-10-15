@@ -1,1 +1,59 @@
+body{
+    background-color: white;
+    font-family: verdana, arial, cursive ;
+}
 
+h1, h2, h3 {
+    font-family: arial, sans-serif;
+    text-decoration-line: underline;
+}
+
+.produit {
+    color: coral;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.reference {
+    background-color: lightgrey;
+    color: black;
+    font-style: italic;
+
+}
+
+
+.general {
+    color: blue;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+
+#div3 {
+    background-color: #C0C0C0;
+    color: blue;
+    font-size: small;
+}
+
+#div1 h3 {
+    color: red;
+    text-transform: uppercase;
+}
+
+blockquote p {
+    font-size: 20px;
+}
+
+blockquote p::first-letter {
+    color: green;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+th {
+    font-variant: small-caps;
+}
+
+ul {
+    list-style-type: disc;
+}
